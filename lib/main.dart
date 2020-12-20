@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:integrate_sqlite_api/src/main_screen.dart';
+import 'package:integrate_sqlite_api/src/pages/main_screen.dart';
 
 void main() => runApp(MyApp());
 
