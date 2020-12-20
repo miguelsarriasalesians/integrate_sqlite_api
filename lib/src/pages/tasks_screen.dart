@@ -3,7 +3,8 @@ import 'package:flutter/material.dart';
 import 'package:integrate_sqlite_api/src/providers/database.dart';
 
 class TasksScreen extends StatefulWidget {
-  TasksScreen({Key key, this.title = "Add a task"}) : super(key: key);
+  TasksScreen({Key key, this.title = "Manage your tasks below"})
+      : super(key: key);
 
   final String title;
 

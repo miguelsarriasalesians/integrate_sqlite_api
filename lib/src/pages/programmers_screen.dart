@@ -20,7 +20,7 @@ class _ProgrammersScreenState extends State<ProgrammersScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.indigo,
-        title: Text('Api to sqlite'),
+        title: Text('Programmers API'),
         centerTitle: true,
         leading: Container(
           padding: EdgeInsets.only(left: 10.0),
