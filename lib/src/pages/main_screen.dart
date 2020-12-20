@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:integrate_sqlite_api/src/pages/programmers_screen.dart';
+import 'package:integrate_sqlite_api/src/pages/tasks_screen.dart';
 
 class MainScreen extends StatefulWidget {
   @override
@@ -7,14 +9,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
-  final tabs = [
-    Container(
-      color: Colors.blue,
-    ),
-    Container(
-      color: Colors.red,
-    ),
-  ];
+  final tabs = [TasksScreen(), ProgrammersScreen()];
 
   @override
   Widget build(BuildContext context) {
