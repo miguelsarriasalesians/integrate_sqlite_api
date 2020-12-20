@@ -21,9 +21,11 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       body: tabs[_currentIndex],
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.indigo,
         currentIndex: _currentIndex,
         type: BottomNavigationBarType.fixed,
-        selectedItemColor: Colors.indigo,
+        selectedItemColor: Colors.white,
+        unselectedItemColor: Colors.grey[500],
         selectedFontSize: 20,
         unselectedFontSize: 15,
         iconSize: 30,
